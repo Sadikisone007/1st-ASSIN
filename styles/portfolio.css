@@ -23,6 +23,11 @@ nav{
     font-size: 45px;
 }
 /* shared styles */
+
+.secondary-bg{
+    background-color: rgba(78, 71, 255, 0.1)
+}
+
 .text-primary{
     color: #4E47FF;
 }
@@ -90,6 +95,74 @@ nav ul{
 .raleway-normal1 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  
-  font-style: normal;
+  font-style:normal;
+}
+
+/* Action styles */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 159px 0 177px;
+}
+
+.banner-greetings{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-profile{
+    width: 303px;
+    height: 228px;
+    border-radius: 48px;
+
+}
+
+.action-description{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+/* Main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Productive styles */
+.productive{
+    border-radius: 24px;
+    padding: 30px 50px;
+    text-align: center;
+    margin:  30px 32px;
+    gap:;
+}
+
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+    font-size: 80px;
+    margin: 5px;
+
+}
+
+.item-title{
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 5px;
+    
+
+}
+.item-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    
 }
